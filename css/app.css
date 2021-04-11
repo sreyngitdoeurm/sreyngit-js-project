@@ -1,0 +1,80 @@
+body{
+    background-image: url("https://media.npr.org/assets/img/2019/07/23/gettyimages-1074272010_wide-0992e21b0dc077687c7fc84d69b5b5298519a533-s800-c85.jpg");
+    background-size: cover;
+}
+/*--------Header---------------*/
+.header h1{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+/*--------Button---------------*/
+#button-1{
+    background-color: hsla(133, 73%, 46%, 0.816);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+    margin-left: 45%;
+    border-radius: 15px;
+}
+/* create form---------------------------------------------- */
+.container{
+    margin-left: 30%;
+}
+form{
+    background-color: rgb(128, 185, 187);
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    padding: 20px;
+}
+.box{
+    padding: 10px;
+    width: 90%;
+    margin: 5px;
+}
+#btnsubmit,#btnupdate{
+    width: 70%;
+    padding: 10px;
+    margin-left: 15%;
+    background-color: darkcyan;
+    margin-top: 2%;
+    
+}
+/* create table----------------------- */
+.table{
+    padding: 1%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+ 
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 5%;
+    
+}
+
+/* play style with button delete and edit */
+.buttons{
+    margin-left: 40%;
+    margin-top: 1%;
+}
+#button-2, #button-3{
+    padding: 1%;
+    width: 15%;
+    margin: 1%;
+    
+}
+/* play style for add button */
+#button-4{
+    margin-left: 45%;
+    margin-top: 1%;
+    padding: 1%;
+    background: rgb(110, 204, 228);
+    border-radius: 15px;
+}
